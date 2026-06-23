@@ -1,9 +1,14 @@
 import os
+import certifi
 from typing import List, Dict, Any
+
+os.environ["SSL_CERT_FILE"] = certifi.where()
+os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
 
 import streamlit as st
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
+
 
 from ddgs import DDGS
 
