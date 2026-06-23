@@ -28,7 +28,7 @@ For severe symptoms, seek urgent medical care.
 
 ## Required secret
 
-Add this secret in Hugging Face Spaces:
+Add this secret in Hugging Face Spaces or LLM Api keys:
 
 ```txt
 MISTRAL_API_KEY
