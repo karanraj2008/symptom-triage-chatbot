@@ -4,31 +4,15 @@ emoji: 🩺
 colorFrom: blue
 colorTo: green
 sdk: docker
-app_port: 8501
+app_port: 7860
 pinned: false
 license: mit
 ---
 
 # Symptom Triage Chatbot
 
-A free symptom triage chatbot using:
+A Streamlit-based AI symptom triage chatbot using LangChain, Mistral AI, and free doctor web search.
 
-- Python 3.12.4
-- Streamlit
-- LangChain
-- Mistral AI
-- DuckDuckGo search through ddgs
-- Hugging Face Spaces Docker hosting
+## Safety
 
-## Important safety note
-
-This app does not provide a confirmed diagnosis. It only gives educational symptom triage guidance.
-
-For severe symptoms, seek urgent medical care.
-
-## Required secret
-
-Add this secret in Hugging Face Spaces or LLM Api keys:
-
-```txt
-MISTRAL_API_KEY
+This app does not provide a confirmed diagnosis. It only provides educational symptom triage guidance.
